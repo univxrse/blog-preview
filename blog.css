@@ -1,0 +1,80 @@
+body{
+  background:hsl(47, 88%, 63%);
+  height:100vh;
+  margin:0;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.container{
+  display:flex;
+  justify-content:center;
+  text-align:center;
+}
+.card{
+  width:350px;
+  background-color:white;
+  border:1px solid black;
+  border-radius:20px;
+  box-shadow: 10px 10px 0 0px black;
+  padding:20px;
+  transition:ease-in-out 1s;
+}
+.card:hover{
+  transition:ease-in-out 0.3s;
+  box-shadow: 15px 15px 0 0px black;
+}
+.preview{
+  border-radius:10px;
+  transition: ease-in-out .9s;
+}
+.preview:hover{
+  box-shadow:1px 1px 5px 1px black;
+}
+p{
+  text-align:left;
+}
+span{
+  padding:5px 10px;
+  background:gold;
+  border-radius:5px;
+}
+.sub-text{
+  font-Family: Figtree, sans-serif;
+  font-weight:100;
+  font-size:1rem;
+}
+h1{
+  text-align:left;
+  font-Family: Figtree, sans-serif;
+  font-size:1.5rem;
+}
+h1:hover{
+  transition:1s;
+  color:hsl(47, 99%, 62%);
+  cursor:pointer;
+}
+.summary{
+  justify-content:center;
+  font-Family: Figtree, sans-serif;
+  font-size:1.1rem;
+  text-align:left;
+  color: hsl(0, 0%, 7%);
+}
+.lower{
+  display:flex;
+}
+.profile{
+  margin-top:10px;
+  height:30px;
+}
+.name{
+  font-size:1.2rem;
+  margin-left:15px;
+}
+.attribution{
+  margin-top:20px;
+  justify-content:center;
+  text-align:center;
+  font-size:0.8rem;
+}
